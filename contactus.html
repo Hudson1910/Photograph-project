@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Contact Form</h1>
+      <div class="wrapper animated bounceInLeft">
+        <div class="contact">
+          <h3 class="contact-us">Contact Us</h3>
+          <div class="alert">Your message has been sent!</div>
+          <form id="contactForm">
+            <p class="FirstName-field">
+              <label>Fist Name <span>*</span></label>
+              <input type="text" name="name" id="name" required />
+            </p>
+            <p class="LastName-field">
+              <label>Last Name</label>
+              <input type="text" name="company" id="company" />
+            </p>
+            <p class="email-field">
+              <label>Email <span>*</span></label>
+              <input type="email" name="email" id="email" required />
+            </p>
+            <p class="phone-field">
+              <label>Phone</label>
+              <input type="text" name="phone" id="phone" />
+            </p>
+            <p class="message-field full">
+              <label>Message</label>
+              <textarea name="message" rows="5" id="message"></textarea>
+            </p>
+            <p class="required-field">Required field <span>*</span></p>
+            <p class="submit-button">
+              <button type="submit">Submit</button>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="footer-basic">
+      <footer>
+        <div class="social">
+          <a href="https://www.instagram.com/hudsonbarroshb/"
+            ><i class="fa fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/hudson.valeriano.52"
+            ><i class="fa fa-facebook"></i></a
+          ><a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="html.index.html">Home</a></li>
+          <li class="list-inline-item">
+            <a href="investment.html">Investment</a>
+          </li>
+          <li class="list-inline-item"><a href="#">Portifolio</a></li>
+          <li class="list-inline-item"><a href="#">AboutUs</a></li>
+          <li class="list-inline-item">
+            <a href="contactus.html">ContactUs</a>
+          </li>
+        </ul>
+        <p class="copyright">Company Name © 2022</p>
+      </footer>
+    </div>
+    <script src="script.index.js"></script>
+  </body>
+</html>
